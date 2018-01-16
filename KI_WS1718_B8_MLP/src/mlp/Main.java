@@ -20,7 +20,7 @@ public class Main {
         double trainingsfehler;
         do {
             trainingsfehler = 0;
-            for (int i = 0; i < 10000; i++) {
+            for (int i = 0; i < 1000; i++) {
                 trainingsfehler = 0;
                 for (Data d : data) {
                     mlp.feedforward(d);
